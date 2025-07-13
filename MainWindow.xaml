@@ -1,0 +1,25 @@
+﻿<Window x:Class="LavernaCompanyCSharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LavernaCompanyCSharp"
+        mc:Ignorable="d"
+        Title="Учета офисного оборудования" Height="350" Width="900">
+    <Grid x:Name="MainRoot" Background="White">
+        <Label x:Name="label" Content="Наименование" HorizontalAlignment="Left" Margin="20,24,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="label1" Content="Тип" HorizontalAlignment="Left" Margin="25,64,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="label2" Content="Статус" HorizontalAlignment="Left" Margin="20,99,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="label3" Content="ID" HorizontalAlignment="Left" Margin="21,139,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="name_txt" HorizontalAlignment="Left" Margin="160,24,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" FontSize="14"/>
+        <TextBox x:Name="type_txt" HorizontalAlignment="Left" Margin="160,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" FontSize="14"/>
+        <TextBox x:Name="status_txt" HorizontalAlignment="Left" Margin="160,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" FontSize="14"/>
+        <TextBox x:Name="search_txt" HorizontalAlignment="Left" Margin="75,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="320,24,25,140"/>
+        <Button x:Name="InsertBtn" Content="Вставить запись" HorizontalAlignment="Left" Margin="35,259,0,0" VerticalAlignment="Top" Height="45" Width="215" FontSize="16" FontWeight="Bold" Background="#FF122779" BorderBrush="#FFEFEFEF" Foreground="#FFEAE1E1" Click="InsertBtn_Click"/>
+        <Button x:Name="UpdateBtn" Content="Обновить запись" HorizontalAlignment="Left" Margin="295,259,0,0" VerticalAlignment="Top" Height="45" Width="220" FontSize="16" FontWeight="Bold" Background="#FF122779" BorderBrush="#FFEFEFEF" Foreground="#FFEAE1E1" Click="UpdateBtn_Click"/>
+        <Button x:Name="DeleteBtn" Content="Удалить запись" HorizontalAlignment="Left" Margin="565,254,0,0" VerticalAlignment="Top" Height="45" Width="190" FontSize="16" FontWeight="Bold" Background="#FF122779" BorderBrush="#FFEFEFEF" Foreground="#FFEAE1E1" Click="DeleteBtn_Click"/>
+        <Button x:Name="ClearDataBtn" Content="Очистить поля" HorizontalAlignment="Left" Margin="155,174,0,0" VerticalAlignment="Top" Height="35" Width="145" FontSize="16" FontWeight="Bold" Background="#FFC2FF00" BorderBrush="#FF0A21DC" Foreground="#FF0A0DEC" Click="ClearDataBtn_Click"/>
+
+    </Grid>
+</Window>
