@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LavernaCompanyCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0db34f015e4ebcdc16f4fe65fcb9f2f8f4cf1767")]
 [assembly: System.Reflection.AssemblyProductAttribute("LavernaCompanyCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LavernaCompanyCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

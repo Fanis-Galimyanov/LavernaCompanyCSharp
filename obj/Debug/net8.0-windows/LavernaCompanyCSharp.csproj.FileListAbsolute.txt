@@ -26,3 +26,4 @@ C:\developer\LavrinC#\LavernaCompanyCSharp\bin\Debug\net8.0-windows\runtimes\uni
 C:\developer\LavrinC#\LavernaCompanyCSharp\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\developer\LavrinC#\LavernaCompanyCSharp\obj\Debug\net8.0-windows\LavernaCompanyCSharp.csproj.AssemblyReference.cache
 C:\developer\LavrinC#\LavernaCompanyCSharp\obj\Debug\net8.0-windows\LavernaC.FD8E5E2F.Up2Date
+C:\developer\LavrinC#\LavernaCompanyCSharp\obj\Debug\net8.0-windows\LavernaCompanyCSharp.sourcelink.json

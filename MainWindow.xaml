@@ -10,16 +10,17 @@
         <Label x:Name="label" Content="Наименование" HorizontalAlignment="Left" Margin="20,24,0,0" VerticalAlignment="Top" FontSize="14"/>
         <Label x:Name="label1" Content="Тип" HorizontalAlignment="Left" Margin="25,64,0,0" VerticalAlignment="Top" FontSize="14"/>
         <Label x:Name="label2" Content="Статус" HorizontalAlignment="Left" Margin="20,99,0,0" VerticalAlignment="Top" FontSize="14"/>
-        <Label x:Name="label3" Content="ID" HorizontalAlignment="Left" Margin="21,139,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="label3" Content="ID" HorizontalAlignment="Left" Margin="26,210,0,0" VerticalAlignment="Top" FontSize="14"/>
         <TextBox x:Name="name_txt" HorizontalAlignment="Left" Margin="160,24,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" FontSize="14"/>
         <TextBox x:Name="type_txt" HorizontalAlignment="Left" Margin="160,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" FontSize="14"/>
         <TextBox x:Name="status_txt" HorizontalAlignment="Left" Margin="160,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" FontSize="14"/>
-        <TextBox x:Name="search_txt" HorizontalAlignment="Left" Margin="75,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <TextBox x:Name="search_txt" HorizontalAlignment="Left" Margin="60,214,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="14"/>
         <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="320,24,25,140"/>
         <Button x:Name="InsertBtn" Content="Вставить запись" HorizontalAlignment="Left" Margin="35,259,0,0" VerticalAlignment="Top" Height="45" Width="215" FontSize="16" FontWeight="Bold" Background="#FF122779" BorderBrush="#FFEFEFEF" Foreground="#FFEAE1E1" Click="InsertBtn_Click"/>
         <Button x:Name="UpdateBtn" Content="Обновить запись" HorizontalAlignment="Left" Margin="295,259,0,0" VerticalAlignment="Top" Height="45" Width="220" FontSize="16" FontWeight="Bold" Background="#FF122779" BorderBrush="#FFEFEFEF" Foreground="#FFEAE1E1" Click="UpdateBtn_Click"/>
         <Button x:Name="DeleteBtn" Content="Удалить запись" HorizontalAlignment="Left" Margin="565,254,0,0" VerticalAlignment="Top" Height="45" Width="190" FontSize="16" FontWeight="Bold" Background="#FF122779" BorderBrush="#FFEFEFEF" Foreground="#FFEAE1E1" Click="DeleteBtn_Click"/>
-        <Button x:Name="ClearDataBtn" Content="Очистить поля" HorizontalAlignment="Left" Margin="155,174,0,0" VerticalAlignment="Top" Height="35" Width="145" FontSize="16" FontWeight="Bold" Background="#FFC2FF00" BorderBrush="#FF0A21DC" Foreground="#FF0A0DEC" Click="ClearDataBtn_Click"/>
+        <Button x:Name="ClearDataBtn" Content="Очистить поля" HorizontalAlignment="Left" Margin="160,144,0,0" VerticalAlignment="Top" Height="35" Width="145" FontSize="16" FontWeight="Bold" Background="#FFC2FF00" BorderBrush="#FF0A21DC" Foreground="#FF0A0DEC" Click="ClearDataBtn_Click"/>
+        <Label x:Name="label4" Content="Для Обновления или удаления записи необходимо ввести ID записи в соответствующее поле" HorizontalAlignment="Left" Margin="205,204,0,0" VerticalAlignment="Top" Width="670" FontSize="14" FontWeight="Bold"/>
 
     </Grid>
 </Window>
